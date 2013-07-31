@@ -1,0 +1,20 @@
+{
+    "run_list" : [
+	"recipe[homebrew]"
+    ],
+    "override_attributes" : {
+	"gem_miscs" : {
+	    "user" : "aibou",
+	    "group" : "aibou"
+	},
+	"zsh" : {
+	    "file_mod" : {
+		"user" : "aibou",
+		"group" : "aibou"
+	    },
+	    "options" : {
+		"ls" : "--color=auto"
+	    }
+	}
+    }
+}
