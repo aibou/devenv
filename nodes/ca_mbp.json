@@ -1,0 +1,15 @@
+{
+    "run_list" : [
+	"recipe[homebrew]",
+	"recipe[zsh]"
+    ],
+    "zsh" : {
+	"file" : {
+	    "user" : "A13167",
+	    "group" : "staff"
+	},
+	"options" : {
+	    "ls" : "-G"
+	}
+    }
+}   
