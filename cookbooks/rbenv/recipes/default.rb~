@@ -7,8 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{rbenv ruby-build}.each do |pkg|
-  package pkg do
-    action :install
-  end
+package %w{rbenv ruby-build} do 
+  action :install
 end

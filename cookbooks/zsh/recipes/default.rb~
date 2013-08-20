@@ -19,4 +19,4 @@ template File.expand_path "~/.zshrc" do
 end
 
 # TODO: chsh and add "/usr/local/bin/zsh" line in /etc/shells
-# TODO: rewrite /etc/paths (move "/usr/local/bin" line to top)
+# TODO: rewrite /etc/paths 
